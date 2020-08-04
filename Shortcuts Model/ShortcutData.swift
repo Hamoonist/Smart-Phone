@@ -7,9 +7,11 @@
 
 import Foundation
 
-struct ShortcutData {
+struct ShortcutData: Identifiable {
+    let id : UUID = UUID()
     let name: String
     let description : String
     let nameOfSymbol : String
-    let link: URL 
+    let link: URL
+    let color: Double?
 }

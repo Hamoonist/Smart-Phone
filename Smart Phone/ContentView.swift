@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ShortcutView(image: Image(systemName: "bell.circle.fill"),color: Color.init(hue: 0.2, saturation: 0.5, brightness: 0.5, opacity: 0.2),
-                     name: "A shortcut", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")    }
+    ListOfShortcuts(list: [
+        
+            ShortcutData.init(name: "Notification",
+                  description: "This notification will notify you about some good stuffs!",
+                  nameOfSymbol: "bell.circle.fill",
+                  link: URL(string: "www.apple.com")!,
+                  color: 0.2),
+           
+            ShortcutData.init(name: "Map",
+                  description: "This is an automation for showing your current position on the maps. \n It opens the maps and shows where you are! magic!",
+                  nameOfSymbol: "map",
+                  link: URL(string: "www.apple.com")!,
+                  color: 0.8)
+        ])
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

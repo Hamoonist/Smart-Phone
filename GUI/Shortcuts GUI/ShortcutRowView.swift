@@ -1,5 +1,5 @@
 //
-//  ShortcutView.swift
+//  ShortcutRowView.swift
 //  Smart Phone
 //
 //  Created by Hamoon Jamshidi Meydandar on 2020. 08. 03..
@@ -14,7 +14,7 @@ struct ShortcutRowView: View {
         ZStack{
             //Color.black
             
-            Color.init(hue: 0.2, saturation: 0.5, brightness: 0.5, opacity: 0.2)
+            Color.init(hue: data.color ?? 0.2, saturation: 0.5, brightness: 0.5, opacity: 0.4)
                 
             HStack{
                 VStack{

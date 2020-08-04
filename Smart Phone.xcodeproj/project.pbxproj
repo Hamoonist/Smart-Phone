@@ -15,8 +15,9 @@
 		CAFBC26C24D8541400DBD939 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBC26B24D8541400DBD939 /* Preview Assets.xcassets */; };
 		CAFBC27724D8541400DBD939 /* Smart_PhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC27624D8541400DBD939 /* Smart_PhoneTests.swift */; };
 		CAFBC28224D8541400DBD939 /* Smart_PhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC28124D8541400DBD939 /* Smart_PhoneUITests.swift */; };
-		CAFBC29224D8555600DBD939 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29124D8555600DBD939 /* ShortcutView.swift */; };
+		CAFBC29224D8555600DBD939 /* ShortcutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */; };
 		CAFBC29524D8569A00DBD939 /* GlyphDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29424D8569A00DBD939 /* GlyphDetailsView.swift */; };
+		CAFD9F9E24D95D9200462EF7 /* ShortcutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,9 @@
 		CAFBC28124D8541400DBD939 /* Smart_PhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_PhoneUITests.swift; sourceTree = "<group>"; };
 		CAFBC28324D8541400DBD939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAFBC28F24D8544D00DBD939 /* Smart Phone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Smart Phone.entitlements"; sourceTree = "<group>"; };
-		CAFBC29124D8555600DBD939 /* ShortcutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
+		CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRowView.swift; sourceTree = "<group>"; };
 		CAFBC29424D8569A00DBD939 /* GlyphDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphDetailsView.swift; sourceTree = "<group>"; };
+		CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +94,9 @@
 		CA285A9624D9507E008EC1BA /* Shortcuts GUI */ = {
 			isa = PBXGroup;
 			children = (
-				CAFBC29124D8555600DBD939 /* ShortcutView.swift */,
+				CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */,
 				CA0AD07824D86CFE00EC5E7B /* ListOfShortcuts.swift */,
+				CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */,
 			);
 			path = "Shortcuts GUI";
 			sourceTree = "<group>";
@@ -307,7 +310,8 @@
 			files = (
 				CA0AD07924D86CFE00EC5E7B /* ListOfShortcuts.swift in Sources */,
 				CA0AD07C24D86D8E00EC5E7B /* ShortcutData.swift in Sources */,
-				CAFBC29224D8555600DBD939 /* ShortcutView.swift in Sources */,
+				CAFD9F9E24D95D9200462EF7 /* ShortcutDetailView.swift in Sources */,
+				CAFBC29224D8555600DBD939 /* ShortcutRowView.swift in Sources */,
 				CAFBC26724D8541000DBD939 /* ContentView.swift in Sources */,
 				CAFBC29524D8569A00DBD939 /* GlyphDetailsView.swift in Sources */,
 				CAFBC26524D8541000DBD939 /* Smart_PhoneApp.swift in Sources */,
