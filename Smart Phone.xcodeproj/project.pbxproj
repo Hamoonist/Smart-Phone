@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA01FB7F24EA9CF0003600A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA01FB7E24EA9CF0003600A8 /* GoogleService-Info.plist */; };
 		CA0AD07924D86CFE00EC5E7B /* ListOfShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AD07824D86CFE00EC5E7B /* ListOfShortcuts.swift */; };
 		CA0AD07C24D86D8E00EC5E7B /* ShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AD07B24D86D8E00EC5E7B /* ShortcutData.swift */; };
 		CAFBC26524D8541000DBD939 /* Smart_PhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC26424D8541000DBD939 /* Smart_PhoneApp.swift */; };
@@ -18,6 +19,7 @@
 		CAFBC29224D8555600DBD939 /* ShortcutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */; };
 		CAFBC29524D8569A00DBD939 /* GlyphDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29424D8569A00DBD939 /* GlyphDetailsView.swift */; };
 		CAFD9F9E24D95D9200462EF7 /* ShortcutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */; };
+		CAFD9FA024D9699200462EF7 /* AListOfShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD9F9F24D9699200462EF7 /* AListOfShortcutData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA01FB7E24EA9CF0003600A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CA0AD07824D86CFE00EC5E7B /* ListOfShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfShortcuts.swift; sourceTree = "<group>"; };
 		CA0AD07B24D86D8E00EC5E7B /* ShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutData.swift; sourceTree = "<group>"; };
 		CAFBC26124D8541000DBD939 /* Smart Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Phone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +59,7 @@
 		CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRowView.swift; sourceTree = "<group>"; };
 		CAFBC29424D8569A00DBD939 /* GlyphDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphDetailsView.swift; sourceTree = "<group>"; };
 		CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutDetailView.swift; sourceTree = "<group>"; };
+		CAFD9F9F24D9699200462EF7 /* AListOfShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AListOfShortcutData.swift; path = ../../../../AListOfShortcutData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CA0AD07B24D86D8E00EC5E7B /* ShortcutData.swift */,
+				CAFD9F9F24D9699200462EF7 /* AListOfShortcutData.swift */,
 			);
 			path = "Shortcuts Model";
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				CAFBC28F24D8544D00DBD939 /* Smart Phone.entitlements */,
 				CAFBC26424D8541000DBD939 /* Smart_PhoneApp.swift */,
 				CAFBC26624D8541000DBD939 /* ContentView.swift */,
+				CA01FB7E24EA9CF0003600A8 /* GoogleService-Info.plist */,
 				CAFBC26824D8541400DBD939 /* Assets.xcassets */,
 				CAFBC26D24D8541400DBD939 /* Info.plist */,
 				CAFBC26A24D8541400DBD939 /* Preview Content */,
@@ -284,6 +290,7 @@
 			files = (
 				CAFBC26C24D8541400DBD939 /* Preview Assets.xcassets in Resources */,
 				CAFBC26924D8541400DBD939 /* Assets.xcassets in Resources */,
+				CA01FB7F24EA9CF0003600A8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +319,7 @@
 				CA0AD07C24D86D8E00EC5E7B /* ShortcutData.swift in Sources */,
 				CAFD9F9E24D95D9200462EF7 /* ShortcutDetailView.swift in Sources */,
 				CAFBC29224D8555600DBD939 /* ShortcutRowView.swift in Sources */,
+				CAFD9FA024D9699200462EF7 /* AListOfShortcutData.swift in Sources */,
 				CAFBC26724D8541000DBD939 /* ContentView.swift in Sources */,
 				CAFBC29524D8569A00DBD939 /* GlyphDetailsView.swift in Sources */,
 				CAFBC26524D8541000DBD939 /* Smart_PhoneApp.swift in Sources */,

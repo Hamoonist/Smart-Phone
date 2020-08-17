@@ -14,4 +14,5 @@ struct ShortcutData: Identifiable {
     let nameOfSymbol : String
     let link: URL
     let color: Double?
+    let credit: String? 
 }
