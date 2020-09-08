@@ -7,12 +7,24 @@
 
 import Foundation
 
-struct ShortcutData: Identifiable {
-    let id : UUID = UUID()
+struct ShortcutData: ShortcutProtocol, Hashable {
+    var id : String {
+        get{
+            self.name
+        }
+    }
     let name: String
     let description : String
     let nameOfSymbol : String
     let link: URL
     let color: Double?
-    let credit: String? 
+    let credit: String?
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    static func == (lhs: ShortcutData, rhs: ShortcutData) -> Bool {
+        lhs.id == rhs.id
+    }
+    
 }

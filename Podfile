@@ -5,7 +5,7 @@ target 'Smart Phone' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Firebase/Firestore'
-
+  pod 'CombineFirebase/Firestore'
   # Pods for Smart Phone
 
   target 'Smart PhoneTests' do
