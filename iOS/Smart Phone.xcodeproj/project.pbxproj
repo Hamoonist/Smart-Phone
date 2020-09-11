@@ -14,6 +14,7 @@
 		CA01FB8124EACDB9003600A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01FB8024EACDB9003600A8 /* AppDelegate.swift */; };
 		CA0AD07924D86CFE00EC5E7B /* ListOfShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AD07824D86CFE00EC5E7B /* ListOfShortcuts.swift */; };
 		CA0AD07C24D86D8E00EC5E7B /* ShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AD07B24D86D8E00EC5E7B /* ShortcutData.swift */; };
+		CA3B20E72507F5CE00A09D0E /* AListOfShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B20E62507F5CE00A09D0E /* AListOfShortcutData.swift */; };
 		CA51F86D24EBFAAE00A9A579 /* ShortcutDataObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51F86C24EBFAAE00A9A579 /* ShortcutDataObservableObject.swift */; };
 		CACB147124EEA30D00DA461B /* ShortcutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB147024EEA30D00DA461B /* ShortcutsViewModel.swift */; };
 		CACB147324EEA44700DA461B /* ShortcutsModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB147224EEA44700DA461B /* ShortcutsModelProtocol.swift */; };
@@ -27,7 +28,6 @@
 		CAFBC29224D8555600DBD939 /* ShortcutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */; };
 		CAFBC29524D8569A00DBD939 /* GlyphDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBC29424D8569A00DBD939 /* GlyphDetailsView.swift */; };
 		CAFD9F9E24D95D9200462EF7 /* ShortcutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */; };
-		CAFD9FA024D9699200462EF7 /* AListOfShortcutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD9F9F24D9699200462EF7 /* AListOfShortcutData.swift */; };
 		CAFE133C250624BE00A7596D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE133B250624BE00A7596D /* AboutView.swift */; };
 		CAFE134E2506353300A7596D /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFE133E2506353300A7596D /* Icon-App-76x76@2x.png */; };
 		CAFE134F2506353300A7596D /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFE133F2506353300A7596D /* Icon-App-29x29@1x.png */; };
@@ -76,6 +76,7 @@
 		CA01FB8024EACDB9003600A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA0AD07824D86CFE00EC5E7B /* ListOfShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfShortcuts.swift; sourceTree = "<group>"; };
 		CA0AD07B24D86D8E00EC5E7B /* ShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutData.swift; sourceTree = "<group>"; };
+		CA3B20E62507F5CE00A09D0E /* AListOfShortcutData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AListOfShortcutData.swift; sourceTree = "<group>"; };
 		CA51F86C24EBFAAE00A9A579 /* ShortcutDataObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutDataObservableObject.swift; sourceTree = "<group>"; };
 		CACB147024EEA30D00DA461B /* ShortcutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsViewModel.swift; sourceTree = "<group>"; };
 		CACB147224EEA44700DA461B /* ShortcutsModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsModelProtocol.swift; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		CAFBC29124D8555600DBD939 /* ShortcutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRowView.swift; sourceTree = "<group>"; };
 		CAFBC29424D8569A00DBD939 /* GlyphDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphDetailsView.swift; sourceTree = "<group>"; };
 		CAFD9F9D24D95D9200462EF7 /* ShortcutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutDetailView.swift; sourceTree = "<group>"; };
-		CAFD9F9F24D9699200462EF7 /* AListOfShortcutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AListOfShortcutData.swift; path = ../../../../AListOfShortcutData.swift; sourceTree = "<group>"; };
 		CAFE133B250624BE00A7596D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		CAFE133E2506353300A7596D /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
 		CAFE133F2506353300A7596D /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 		CA0AD07A24D86D7100EC5E7B /* Shortcuts Model */ = {
 			isa = PBXGroup;
 			children = (
+				CA3B20E62507F5CE00A09D0E /* AListOfShortcutData.swift */,
 				CA51F86C24EBFAAE00A9A579 /* ShortcutDataObservableObject.swift */,
-				CAFD9F9F24D9699200462EF7 /* AListOfShortcutData.swift */,
 				CA0AD07B24D86D8E00EC5E7B /* ShortcutData.swift */,
 			);
 			path = "Shortcuts Model";
@@ -565,12 +565,12 @@
 				CA0AD07C24D86D8E00EC5E7B /* ShortcutData.swift in Sources */,
 				CACB147524EEA69D00DA461B /* ShortcutProtocol.swift in Sources */,
 				CAFD9F9E24D95D9200462EF7 /* ShortcutDetailView.swift in Sources */,
+				CA3B20E72507F5CE00A09D0E /* AListOfShortcutData.swift in Sources */,
 				CA51F86D24EBFAAE00A9A579 /* ShortcutDataObservableObject.swift in Sources */,
 				CA01FB8124EACDB9003600A8 /* AppDelegate.swift in Sources */,
 				CACB147124EEA30D00DA461B /* ShortcutsViewModel.swift in Sources */,
 				CAFBC29224D8555600DBD939 /* ShortcutRowView.swift in Sources */,
 				CAFE133C250624BE00A7596D /* AboutView.swift in Sources */,
-				CAFD9FA024D9699200462EF7 /* AListOfShortcutData.swift in Sources */,
 				CAFBC26724D8541000DBD939 /* ContentView.swift in Sources */,
 				CACB147324EEA44700DA461B /* ShortcutsModelProtocol.swift in Sources */,
 				CAFBC29524D8569A00DBD939 /* GlyphDetailsView.swift in Sources */,
