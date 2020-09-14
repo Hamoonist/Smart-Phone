@@ -11,7 +11,7 @@ struct ContentView: View {
     @State var showAbout : Bool = false
     var body: some View {
             VStack{
-                ListOfShortcuts()
+                ListOfShortcuts<ShortcutsVM>()
                 Button(action: {
                     self.showAbout = true
                 }, label: {

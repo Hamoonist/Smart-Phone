@@ -30,7 +30,7 @@ struct AboutView: View {
                 Text("Instagram").padding()
             }
             Spacer()
-            HStack{
+            VStack{
                 Text("App icon and many more made by: ")
                 Button(action: {
                     UIApplication.shared.open(URL(string: "http://www.freepik.com")!)

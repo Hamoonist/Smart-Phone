@@ -7,15 +7,21 @@
 
 import Foundation
 
-struct ShortcutData: ShortcutProtocol, Hashable {
-    var id : String {
-        get{
-            self.name
-        }
+struct ShortcutData: ShortcutDataProtocol, Hashable {
+    init(id: String, name: String, description: String, link: URL, icon: ShortcutIcon, color: Double?, credit: String?) {
+        self.id = id
+        self.name  = name
+        self.description = description
+        self.icon = icon
+        self.link = link
+        self.color = color
+        self.credit = credit
     }
+    
+    let id : String
     let name: String
     let description : String
-    let nameOfSymbol : String
+    let icon : ShortcutIcon
     let link: URL
     let color: Double?
     let credit: String?

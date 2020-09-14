@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct ShortcutRowView: View {
+struct ShortcutRowView<Shortcut: ShortcutDataProtocol>: View {
   
-    let data : ShortcutData
+    let data : Shortcut
     var body: some View {
         ZStack{
-            //Color.black
             
             Color.init(hue: data.color ?? 0.2, saturation: 0.5, brightness: 0.5, opacity: 0.4)
                 
             HStack{
                 VStack{
-                    Image(systemName: data.nameOfSymbol).resizable()
+                    data.iconImage()?
+                        .resizable()
                         .scaledToFit()
                 .frame(width: 50, height: 50, alignment: .center)
                 .padding()
@@ -36,16 +36,6 @@ struct ShortcutRowView: View {
                         .frame(minWidth: 200,  minHeight: 50,  alignment: .leading)
                         .padding()
                     Spacer()
-                }
-                if (data.credit != nil){
-                HStack {
-                    Text("Credit to: \(data.credit!)")
-                        .font(.footnote)
-                        .frame(minWidth: 200,  minHeight: 50,  alignment: .leading)
-                        .padding()
-                    Spacer()
-                }
-                    
                 }
             }
         }
